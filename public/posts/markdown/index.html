@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready text-sm lg:text-base"
+  style="--bg: #faf6f1"
+  lang="en-us"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Markdown - Practica: Despliegue de pagina web estatica</title>
+
+  
+  <meta name="theme-color" />
+  
+  <meta name="description" content="Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple.
+Sintaxis básica de Markdown:
+Encabezamientos  #H1
+ Heading1  ##H2
+ Heading2  ###H3
+ Heading3  Negrita **bold text**
+bold text
+ ##Cursiva
+*italicized text*
+italicized text
+ Cita en bloque &gt; Blockquote
+ Blockquote
+  Lista ordenada 1. First item 2. Second item 3. Third item  primer objeto ordenado segundo objeto ordenado tercer objeto ordenado  Lista desordenada - First item - Second item - Third item  primer objeto desordenado segundo objeto desordenado tercer objeto desordenado   Code  code" />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="/main.min.css" />
+
+  
+
+  
+  
+  
+    
+  
+  <link
+    rel="preload"
+    as="image"
+    href="/theme.png"
+  />
+
+  
+  
+  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/6fd8df4abe41f17fd8e2dd7d97b5cc8c?s=160&amp;d=identicon" />
+  
+  
+
+  
+  <link rel="preload" as="image" href="/twitter.svg" />
+  
+  <link rel="preload" as="image" href="/github.svg" />
+  
+  <link rel="preload" as="image" href="/instagram.svg" />
+  
+  <link rel="preload" as="image" href="/rss.svg" />
+  
+
+  
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Markdown" />
+<meta property="og:description" content="Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple.
+Sintaxis básica de Markdown:
+Encabezamientos  #H1
+ Heading1  ##H2
+ Heading2  ###H3
+ Heading3  Negrita **bold text**
+bold text
+ ##Cursiva
+*italicized text*
+italicized text
+ Cita en bloque &gt; Blockquote
+ Blockquote
+  Lista ordenada 1. First item 2. Second item 3. Third item  primer objeto ordenado segundo objeto ordenado tercer objeto ordenado  Lista desordenada - First item - Second item - Third item  primer objeto desordenado segundo objeto desordenado tercer objeto desordenado   Code  code" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/markdown/" />
+<meta property="article:published_time" content="2022-09-29T19:14:04+02:00" />
+<meta property="article:modified_time" content="2022-09-29T19:14:04+02:00" />
+
+  
+  <meta itemprop="name" content="Markdown">
+<meta itemprop="description" content="Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple.
+Sintaxis básica de Markdown:
+Encabezamientos  #H1
+ Heading1  ##H2
+ Heading2  ###H3
+ Heading3  Negrita **bold text**
+bold text
+ ##Cursiva
+*italicized text*
+italicized text
+ Cita en bloque &gt; Blockquote
+ Blockquote
+  Lista ordenada 1. First item 2. Second item 3. Third item  primer objeto ordenado segundo objeto ordenado tercer objeto ordenado  Lista desordenada - First item - Second item - Third item  primer objeto desordenado segundo objeto desordenado tercer objeto desordenado   Code  code">
+<meta itemprop="datePublished" content="2022-09-29T19:14:04+02:00" />
+<meta itemprop="dateModified" content="2022-09-29T19:14:04+02:00" />
+<meta itemprop="wordCount" content="170">
+
+
+
+<meta itemprop="keywords" content="" />
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown"/>
+<meta name="twitter:description" content="Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple.
+Sintaxis básica de Markdown:
+Encabezamientos  #H1
+ Heading1  ##H2
+ Heading2  ###H3
+ Heading3  Negrita **bold text**
+bold text
+ ##Cursiva
+*italicized text*
+italicized text
+ Cita en bloque &gt; Blockquote
+ Blockquote
+  Lista ordenada 1. First item 2. Second item 3. Third item  primer objeto ordenado segundo objeto ordenado tercer objeto ordenado  Lista desordenada - First item - Second item - Third item  primer objeto desordenado segundo objeto desordenado tercer objeto desordenado   Code  code"/>
+
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold" href="/"
+      >Practica: Despliegue de pagina web estatica</a
+    >
+    <a
+      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+    ></a>
+  </div>
+
+  <a
+    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+  ></a>
+
+  
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = `"#faf6f1"`.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkVal = localStorage.getItem('dark');
+    setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 dark:invert lg:mt-0 lg:ml-12 lg:items-center lg:space-x-6"
+    >
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href=" https://twitter.com/YOUR_TWITTER_ID "
+        target="_blank"
+      ></a>
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href=" https://github.com/Felg-Ts "
+        target="_blank"
+      ></a>
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href=" https://instagram.com/YOUR_INSTAGRAM_ID "
+        target="_blank"
+      ></a>
+      
+      <a
+        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href=" /index.xml "
+        target="_blank"
+      ></a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-20">
+    <h1 class="!my-0 pb-2.5">Markdown</h1>
+
+    
+    <div class="text-sm opacity-60">
+      
+      <time>:date_medium</time>
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p>Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple.</p>
+<p>Sintaxis básica de Markdown:</p>
+<h2 id="encabezamientos">Encabezamientos</h2>
+<blockquote>
+<p>#H1</p>
+</blockquote>
+<h1 id="heading1">Heading1</h1>
+<blockquote>
+<p>##H2</p>
+</blockquote>
+<h2 id="heading2">Heading2</h2>
+<blockquote>
+<p>###H3</p>
+</blockquote>
+<h3 id="heading3">Heading3</h3>
+<hr>
+<h2 id="negrita">Negrita</h2>
+<p><code>**bold text**</code></p>
+<p><strong>bold text</strong></p>
+<hr>
+<p>##Cursiva</p>
+<p><code>*italicized text*</code></p>
+<p><em>italicized text</em></p>
+<hr>
+<h2 id="cita-en-bloque">Cita en bloque</h2>
+<p><code>&gt; Blockquote</code></p>
+<blockquote>
+<p>Blockquote</p>
+</blockquote>
+<hr>
+<h2 id="lista-ordenada">Lista ordenada</h2>
+<pre><code>1. First item
+2. Second item
+3. Third item
+</code></pre><ol>
+<li>primer objeto ordenado</li>
+<li>segundo objeto ordenado</li>
+<li>tercer objeto ordenado</li>
+</ol>
+<h2 id="lista-desordenada">Lista desordenada</h2>
+<pre><code>- First item
+- Second item
+- Third item
+</code></pre><ul>
+<li>primer objeto desordenado</li>
+<li>segundo objeto desordenado</li>
+<li>tercer objeto desordenado</li>
+</ul>
+<hr>
+<h2 id="code">Code</h2>
+<blockquote>
+<p><code>code</code></p>
+</blockquote>
+<pre><code>nombre = input(&quot;Dime tu nombre:&quot;) 
+ print(&quot;Hola %s&quot; % nombre)
+</code></pre><h2 id="horizontal-rule">Horizontal Rule</h2>
+<p><code>---</code></p>
+<hr>
+<hr>
+<h2 id="link">Link</h2>
+<p><code>[texto a mostrar](enlace)</code></p>
+<p><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Guide</a></p>
+<hr>
+<h2 id="image">Image</h2>
+<p><code>![texto](enlace de la imagen)</code></p>
+<p><img src="https://www.markdownguide.org/assets/images/tux.png" alt="alt text"></p>
+<hr>
+<h2 id="sintaxis-extendida">Sintaxis extendida</h2>
+<p>Estos elementos amplían la sintaxis básica añadiendo características adicionales. No todas las aplicaciones de Markdown admiten estos elementos.</p>
+<h2 id="tabla">Tabla</h2>
+<pre><code>| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+</code></pre><table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="bloque-de-código">Bloque de código</h2>
+<pre><code>{
+  &quot;firstName&quot;: &quot;John&quot;,
+  &quot;lastName&quot;: &quot;Smith&quot;,
+  &quot;age&quot;: 25
+}
+</code></pre></section>
+
+  
+  
+
+  
+  
+  
+  <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
+    
+    
+    <a
+      class="ml-auto flex w-1/2 items-center justify-end p-6 pl-3 no-underline"
+      href="/posts/vagrant/"
+      ><span>Vagrant</span><span class="ml-1.5">→</span></a
+    >
+    
+  </nav>
+  
+
+  
+  
+  <div id="disqus_thread"></div>
+  <script>
+    const disqusShortname = 'YOUR_DISQUS_SHORTNAME';
+    const script = document.createElement('script');
+    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
+    script.setAttribute('data-timestamp', +new Date());
+    document.head.appendChild(script);
+  </script>
+  
+</article>
+
+
+    </main>
+
+    <footer class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60">
+  <div class="mr-auto">
+    &copy; 2022
+    <a class="link" href="/">Practica: Despliegue de pagina web estatica</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank">Powered by Hugo️️</a
+  >️
+  <a class="link" href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank"
+    >▷ Paper 6</a
+  >
+</footer>
+
+  </body>
+</html>

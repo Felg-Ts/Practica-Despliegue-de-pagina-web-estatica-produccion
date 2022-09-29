@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Practica: Despliegue de pagina web estatica</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Practica: Despliegue de pagina web estatica</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Sep 2022 19:14:04 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>/posts/markdown/</link>
+      <pubDate>Thu, 29 Sep 2022 19:14:04 +0200</pubDate>
+      
+      <guid>/posts/markdown/</guid>
+      <description>Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple.
+Sintaxis básica de Markdown:
+Encabezamientos  #H1
+ Heading1  ##H2
+ Heading2  ###H3
+ Heading3  Negrita **bold text**
+bold text
+ ##Cursiva
+*italicized text*
+italicized text
+ Cita en bloque &amp;gt; Blockquote
+ Blockquote
+  Lista ordenada 1. First item 2. Second item 3. Third item  primer objeto ordenado segundo objeto ordenado tercer objeto ordenado  Lista desordenada - First item - Second item - Third item  primer objeto desordenado segundo objeto desordenado tercer objeto desordenado   Code  code</description>
+    </item>
+    
+    <item>
+      <title>Vagrant</title>
+      <link>/posts/vagrant/</link>
+      <pubDate>Thu, 29 Sep 2022 19:13:49 +0200</pubDate>
+      
+      <guid>/posts/vagrant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ansible</title>
+      <link>/posts/ansible/</link>
+      <pubDate>Thu, 29 Sep 2022 19:13:39 +0200</pubDate>
+      
+      <guid>/posts/ansible/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
