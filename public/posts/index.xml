@@ -34,7 +34,8 @@ italicized text
       <pubDate>Thu, 29 Sep 2022 19:13:49 +0200</pubDate>
       
       <guid>/posts/vagrant/</guid>
-      <description></description>
+      <description>##¿Que es Vagrant?
+Vagrant es una herramienta para la creación y configuración de entornos de desarrollo virtualizados. Originalmente se desarrolló para VirtualBox y sistemas de configuración tales como Chef, Salt y Puppet. Sin embargo desde la versión 1.1 Vagrant es capaz de trabajar con múltiples proveedores, como VMware, Amazon EC2, LXC, DigitalOcean, etc.</description>
     </item>
     
     <item>
