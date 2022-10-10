@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Practica: Despliegue de pagina web estatica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Sep 2022 19:14:04 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Oct 2022 13:18:15 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prueba: Introducción a la implantación de aplicaciones web</title>
+      <link>/posts/prueba-introducci%C3%B3n-a-la-implantaci%C3%B3n-de-aplicaciones-web/</link>
+      <pubDate>Mon, 10 Oct 2022 13:18:15 +0200</pubDate>
+      
+      <guid>/posts/prueba-introducci%C3%B3n-a-la-implantaci%C3%B3n-de-aplicaciones-web/</guid>
+      <description>Felipe López García </description>
+    </item>
+    
     <item>
       <title>Markdown</title>
       <link>/posts/markdown/</link>
@@ -34,8 +43,7 @@ italicized text
       <pubDate>Thu, 29 Sep 2022 19:13:49 +0200</pubDate>
       
       <guid>/posts/vagrant/</guid>
-      <description>¿Que es Vagrant? Vagrant es una herramienta para la creación y configuración de entornos de desarrollo virtualizados. Originalmente se desarrolló para VirtualBox y sistemas de configuración tales como Chef, Salt y Puppet. Sin embargo desde la versión 1.1 Vagrant es capaz de trabajar con múltiples proveedores, como VMware, Amazon EC2, LXC, DigitalOcean, etc.
-Imagenes de Vagrant Las virtualizaciones en vagrant se crean a partir de unos archivos iso/img que pueden encontrase en la pagina de vagrant cloud.</description>
+      <description></description>
     </item>
     
     <item>
@@ -44,9 +52,7 @@ Imagenes de Vagrant Las virtualizaciones en vagrant se crean a partir de unos ar
       <pubDate>Thu, 29 Sep 2022 19:13:39 +0200</pubDate>
       
       <guid>/posts/ansible/</guid>
-      <description>¿Que es ansible? Ansible es una plataforma de software libre para configurar y administrar ordenadores. Combina instalación multi-nodo (es decir: permite desplegar configuraciones de servidores y servicios por lotes), ejecuciones de tareas ad hoc y administración de configuraciones.
-El diseño de Ansible incluye:
- Mínimo por naturaleza. Los sistemas de administración no deben imponer dependencias adicionales. Consistente. Seguro. Ansible no instala agentes vulnerables en los nodos. Solamente se requiere OpenSSH que es considerado crítico y altamente comprobado.</description>
+      <description></description>
     </item>
     
   </channel>
